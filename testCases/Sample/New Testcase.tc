@@ -1,0 +1,166 @@
+{
+    "_id": "68f0e7d4db2f1b3497b6e630",
+    "name": "New Testcase",
+    "projectId": "68f0dc9cdb2f1b3497b6d753",
+    "testCaseFolderId": "68f0e7cddb2f1b3497b6e606",
+    "appType": "Web",
+    "assignedTo": "test",
+    "description": "",
+    "createdOn": "2025-10-16T12:40:52.116Z",
+    "displayOn": "2025-10-16T12:40:52.116Z",
+    "createdBy": "62b15e8c347d8169ee5f3718",
+    "createdByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedBy": "62b15e8c347d8169ee5f3718",
+    "modifiedByRole": "5db0022cf87fdec084ae49ab",
+    "modifiedOn": "2025-10-16T13:11:24.652Z",
+    "isTestCaseRecoveryStep": false,
+    "tag": [],
+    "versions": [
+        {
+            "commitId": "d2272b8f64c5655f953d18fdc69f9c3773e31faa",
+            "branch": "main",
+            "commitMsg": "push",
+            "username": "krishnaRaju25",
+            "timestamp": "2025-10-16T12:53:24.036Z"
+        },
+        {
+            "commitId": "edde4344792e3315a7f8e0d4e32566856de5ec38",
+            "branch": "main",
+            "commitMsg": "pushinh",
+            "username": "krishnaRaju25",
+            "timestamp": "2025-10-16T12:56:48.244Z"
+        },
+        {
+            "commitId": "acaf89c956315fa5174d5771bfb315e5780bcdf8",
+            "branch": "main",
+            "commitMsg": "push all",
+            "username": "krishnaRaju25",
+            "timestamp": "2025-10-16T13:12:36.806Z"
+        },
+        {
+            "commitId": "40034e6727841983ddbe14ad6fc7afb3abdb7a60",
+            "branch": "test",
+            "commitMsg": "all together",
+            "username": "krishnaRaju25",
+            "timestamp": "2025-10-16T13:28:20.989Z"
+        }
+    ],
+    "__v": 0,
+    "parentPath": "Sample",
+    "testStepGroups": [
+        {
+            "_id": "68f0e7e6db2f1b3497b6e66b",
+            "name": "welcome",
+            "projectId": "68f0dc9cdb2f1b3497b6d753",
+            "testCaseId": "68f0e7d4db2f1b3497b6e630",
+            "appType": "Web",
+            "assignedTo": "test",
+            "groupIndex": 1,
+            "createdBy": "62b15e8c347d8169ee5f3718",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedBy": "62b15e8c347d8169ee5f3718",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-10-16T13:11:24.638Z",
+            "displayOn": "2025-10-16T13:11:24.638Z",
+            "modifiedOn": "2025-10-16T13:11:24.638Z",
+            "testSteps": [
+                {
+                    "_id": "68f0e7e6db2f1b3497b6e66e",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 2,
+                    "keywordVal": "navigateToURL",
+                    "appType": "Web",
+                    "inputVal": [
+                        "https://www.google.com"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "68f0e7e6db2f1b3497b6e66b",
+                    "parentName": "welcome",
+                    "modifiedBy": "62b15e8c347d8169ee5f3718",
+                    "__v": 0
+                },
+                {
+                    "_id": "68f0eb79db2f1b3497b6e87f",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 1,
+                    "keywordVal": "openBrowser",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "68f0e7e6db2f1b3497b6e66b",
+                    "parentName": "welcome",
+                    "modifiedBy": "62b15e8c347d8169ee5f3718",
+                    "__v": 0
+                }
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "68f0eefcdb2f1b3497b6ecdd",
+            "name": "sample",
+            "projectId": "68f0dc9cdb2f1b3497b6d753",
+            "testCaseId": "68f0e7d4db2f1b3497b6e630",
+            "appType": "Web",
+            "assignedTo": "test",
+            "groupIndex": 2,
+            "createdBy": "62b15e8c347d8169ee5f3718",
+            "createdByRole": "5db0022cf87fdec084ae49ab",
+            "modifiedBy": "62b15e8c347d8169ee5f3718",
+            "modifiedByRole": "5db0022cf87fdec084ae49ab",
+            "createdOn": "2025-10-16T13:11:24.648Z",
+            "displayOn": "2025-10-16T13:11:24.648Z",
+            "modifiedOn": "2025-10-16T13:11:24.648Z",
+            "testSteps": [
+                {
+                    "_id": "68f0eefcdb2f1b3497b6ece0",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 1,
+                    "keywordVal": "openBrowser",
+                    "appType": "Web",
+                    "inputVal": [
+                        ""
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "68f0eefcdb2f1b3497b6ecdd",
+                    "parentName": "sample",
+                    "modifiedBy": "62b15e8c347d8169ee5f3718",
+                    "__v": 0
+                },
+                {
+                    "_id": "68f0eefcdb2f1b3497b6ece1",
+                    "name": "@Browser",
+                    "elementRepoId": "",
+                    "elementId": "",
+                    "stepNo": 2,
+                    "keywordVal": "navigateToURL",
+                    "appType": "Web",
+                    "inputVal": [
+                        "https://www.google.com"
+                    ],
+                    "outputVal": "",
+                    "remarks": "",
+                    "addDetails": "",
+                    "testStepGroupId": "68f0eefcdb2f1b3497b6ecdd",
+                    "parentName": "sample",
+                    "modifiedBy": "62b15e8c347d8169ee5f3718",
+                    "__v": 0
+                }
+            ],
+            "__v": 0
+        }
+    ]
+}
